@@ -41,7 +41,7 @@ public class UserActivity extends AppCompatActivity {
         avatarList.add(R.drawable.avatar1);
         avatarList.add(R.drawable.avatar2);
         avatarList.add(R.drawable.avatar3);
-        AvatarAdapter adapter = new AvatarAdapter(this, avatarList);
+        AvatarSpinnerAdapter adapter = new AvatarSpinnerAdapter(this, avatarList);
         avatarSpinner.setAdapter(adapter);
 
 

@@ -10,12 +10,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class AvatarAdapter extends ArrayAdapter<Integer> {
+public class AvatarSpinnerAdapter extends ArrayAdapter<Integer> {
 
     private Context mContext;
     private ArrayList<Integer> mAvatarList;
 
-    public AvatarAdapter(Context context, ArrayList<Integer> avatarList) {
+    public AvatarSpinnerAdapter(Context context, ArrayList<Integer> avatarList) {
         super(context, R.layout.avatar_spinner_item, avatarList);
         this.mContext = context;
         this.mAvatarList = avatarList;
