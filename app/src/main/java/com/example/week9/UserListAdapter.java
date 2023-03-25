@@ -1,3 +1,9 @@
+/*
+ * Lasse Tuominen
+ * 470627
+ * 25.03.2023
+ *
+ * */
 package com.example.week9;
 
 import android.content.Context;
